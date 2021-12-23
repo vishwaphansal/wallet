@@ -1,0 +1,79 @@
+{
+  "name": "@yerofey/cryptowallet-cli",
+  "version": "1.2.11",
+  "homepage": "https://github.com/yerofey/cryptowallet-cli",
+  "author": "Yerofey S. <pm@yerofey.dev> (https://github.com/yerofey)",
+  "bin": {
+    "cryptowallet": "cli.js",
+    "cw": "cli.js"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "test": "ava"
+  },
+  "files": [
+    "cli.js",
+    "./src/"
+  ],
+  "keywords": [
+    "cli",
+    "cli-app",
+    "console",
+    "command-line",
+    "terminal",
+    "generator",
+    "crypto",
+    "cryptocurrency",
+    "wallet",
+    "mnemonic",
+    "cryptowallet",
+    "bitcoin",
+    "btc",
+    "ethereum",
+    "eth",
+    "erc20",
+    "binance",
+    "binance-coin",
+    "binance-smart-chain",
+    "bsc",
+    "bnb",
+    "litecoin",
+    "ltc",
+    "bitcoin-cash",
+    "bch",
+    "polygon",
+    "dogecoin",
+    "doge",
+    "tron",
+    "trx",
+    "metamask",
+    "trust-wallet",
+    "tronlink",
+    "bip39",
+    "bip84"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "@binance-chain/javascript-sdk": "^4.1.1",
+    "@harmony-js/account": "^0.1.57",
+    "@yerofey/dogecoin-bip84": "^0.0.5",
+    "@yerofey/litecoin-bip84": "^0.0.5",
+    "bip39": "3.0.4",
+    "bip84": "^0.2.6",
+    "chalk": "4.1.2",
+    "coininfo": "5.1.0",
+    "coinkey": "3.0.0",
+    "columnify": "1.5.4",
+    "commander": "8.1.0",
+    "eth-lib": "0.1.29",
+    "ethereum-mnemonic-privatekey-utils": "1.0.5",
+    "tezos-sign": "1.4.1",
+    "tronweb": "4.0.0"
+  },
+  "devDependencies": {
+    "ava": "^3.15.0",
+    "ethereum-bip84": "0.0.2"
+  }
+}
