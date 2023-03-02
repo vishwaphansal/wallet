@@ -112,9 +112,3 @@ $ cw -l
 - SegWit Bech32 wallet address support for all Bitcoin forks
 - More EVM compatible cryptos
 - tests
-
-## Author
-[Yerofey S.](https://github.com/yerofey)
-
-## License
-[MIT](https://github.com/yerofey/cryptowallet-cli/blob/master/LICENSE)
